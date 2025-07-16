@@ -1,0 +1,427 @@
+2025-07-16 12:06:48,896 - root - INFO - ==================================================
+2025-07-16 12:06:48,896 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:06:48,896 - root - INFO - Timestamp: 2025-07-16T12:06:48.896622
+2025-07-16 12:06:48,896 - root - INFO - ==================================================
+2025-07-16 12:06:48,897 - root - INFO - ==================================================
+2025-07-16 12:06:48,897 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:06:48,897 - root - INFO - Timestamp: 2025-07-16T12:06:48.897130
+2025-07-16 12:06:48,897 - root - INFO - ==================================================
+2025-07-16 12:06:48,909 - core.query_processor - INFO - QueryProcessor initialized
+2025-07-16 12:06:48,923 - core.system_initializer - INFO - Starting system initialization...
+2025-07-16 12:06:48,925 - root - INFO - ==================================================
+2025-07-16 12:06:48,925 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:06:48,925 - root - INFO - Timestamp: 2025-07-16T12:06:48.925838
+2025-07-16 12:06:48,925 - root - INFO - ==================================================
+2025-07-16 12:06:48,926 - core.system_initializer - INFO - Logging system initialized
+2025-07-16 12:06:48,926 - models.hybrid_sql_generator - INFO - Google Gemini model initialized
+2025-07-16 12:06:48,927 - models.hybrid_sql_generator - WARNING - OpenAI API key not found
+2025-07-16 12:06:48,969 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-16 12:06:48,970 - models.hybrid_sql_generator - INFO - Ollama connection verified
+2025-07-16 12:06:48,976 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-16 12:06:48,976 - core.system_initializer - INFO - AI models initialized: gemini, ollama
+2025-07-16 12:06:49,080 - core.system_initializer - INFO - ClickHouse database connection successful
+2025-07-16 12:06:49,080 - core.system_initializer - WARNING - Vector database initialization failed: Client.__init__() got an unexpected keyword argument 'url'
+2025-07-16 12:06:49,080 - core.system_initializer - INFO - System initialization completed successfully
+2025-07-16 12:06:53,002 - root - INFO - ==================================================
+2025-07-16 12:06:53,003 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:06:53,003 - root - INFO - Timestamp: 2025-07-16T12:06:53.003533
+2025-07-16 12:06:53,004 - root - INFO - ==================================================
+2025-07-16 12:06:53,006 - root - INFO - ==================================================
+2025-07-16 12:06:53,007 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:06:53,007 - root - INFO - Timestamp: 2025-07-16T12:06:53.007142
+2025-07-16 12:06:53,007 - root - INFO - ==================================================
+2025-07-16 12:06:53,007 - core.query_processor - INFO - QueryProcessor initialized
+2025-07-16 12:06:53,719 - root - INFO - ==================================================
+2025-07-16 12:06:53,720 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:06:53,720 - root - INFO - Timestamp: 2025-07-16T12:06:53.720674
+2025-07-16 12:06:53,720 - root - INFO - ==================================================
+2025-07-16 12:06:53,721 - root - INFO - ==================================================
+2025-07-16 12:06:53,721 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:06:53,722 - root - INFO - Timestamp: 2025-07-16T12:06:53.722108
+2025-07-16 12:06:53,722 - root - INFO - ==================================================
+2025-07-16 12:06:53,722 - core.query_processor - INFO - QueryProcessor initialized
+2025-07-16 12:06:53,727 - core.query_processor - INFO - Processing query: Compare diabetes medication prescribing patterns by specialty
+2025-07-16 12:06:53,739 - core.query_processor - ERROR - Error processing query: ContextRetriever.__init__() missing 1 required positional argument: 'index'
+2025-07-16 12:06:53,740 - __main__ - INFO - Query processed: Compare diabetes medication prescribing patterns by specialty
+2025-07-16 12:06:53,740 - __main__ - INFO - Confidence: 0.0%
+2025-07-16 12:31:37,671 - root - INFO - ==================================================
+2025-07-16 12:31:37,671 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:31:37,671 - root - INFO - Timestamp: 2025-07-16T12:31:37.671681
+2025-07-16 12:31:37,671 - root - INFO - ==================================================
+2025-07-16 12:31:37,672 - root - INFO - ==================================================
+2025-07-16 12:31:37,672 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:31:37,672 - root - INFO - Timestamp: 2025-07-16T12:31:37.672147
+2025-07-16 12:31:37,672 - root - INFO - ==================================================
+2025-07-16 12:31:37,672 - core.query_processor - INFO - QueryProcessor initialized
+2025-07-16 12:31:37,678 - core.system_initializer - INFO - Starting system initialization...
+2025-07-16 12:31:37,679 - root - INFO - ==================================================
+2025-07-16 12:31:37,679 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:31:37,679 - root - INFO - Timestamp: 2025-07-16T12:31:37.679682
+2025-07-16 12:31:37,679 - root - INFO - ==================================================
+2025-07-16 12:31:37,679 - core.system_initializer - INFO - Logging system initialized
+2025-07-16 12:31:37,683 - models.hybrid_sql_generator - INFO - Google Gemini model initialized
+2025-07-16 12:31:37,683 - models.hybrid_sql_generator - WARNING - OpenAI API key not found
+2025-07-16 12:31:37,794 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-16 12:31:37,796 - models.hybrid_sql_generator - INFO - Ollama connection verified
+2025-07-16 12:31:37,798 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-16 12:31:37,798 - core.system_initializer - INFO - AI models initialized: gemini, ollama
+2025-07-16 12:31:37,928 - core.system_initializer - INFO - ClickHouse database connection successful
+2025-07-16 12:31:37,929 - core.system_initializer - WARNING - Vector database initialization failed: Client.__init__() got an unexpected keyword argument 'url'
+2025-07-16 12:31:37,929 - core.system_initializer - INFO - System initialization completed successfully
+2025-07-16 12:31:41,999 - root - INFO - ==================================================
+2025-07-16 12:31:42,000 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:31:42,000 - root - INFO - Timestamp: 2025-07-16T12:31:42.000376
+2025-07-16 12:31:42,000 - root - INFO - ==================================================
+2025-07-16 12:31:42,001 - root - INFO - ==================================================
+2025-07-16 12:31:42,002 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:31:42,002 - root - INFO - Timestamp: 2025-07-16T12:31:42.002230
+2025-07-16 12:31:42,002 - root - INFO - ==================================================
+2025-07-16 12:31:42,002 - core.query_processor - INFO - QueryProcessor initialized
+2025-07-16 12:31:43,701 - root - INFO - ==================================================
+2025-07-16 12:31:43,701 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:31:43,702 - root - INFO - Timestamp: 2025-07-16T12:31:43.701950
+2025-07-16 12:31:43,702 - root - INFO - ==================================================
+2025-07-16 12:31:43,703 - root - INFO - ==================================================
+2025-07-16 12:31:43,703 - root - INFO - Text2SQL Healthcare Analytics - System Started
+2025-07-16 12:31:43,703 - root - INFO - Timestamp: 2025-07-16T12:31:43.703452
+2025-07-16 12:31:43,703 - root - INFO - ==================================================
+2025-07-16 12:31:43,703 - core.query_processor - INFO - QueryProcessor initialized
+2025-07-16 12:31:43,708 - core.query_processor - INFO - Processing query: Who are the top prescribers of Ozempic in California?
+2025-07-16 12:31:43,752 - core.context_retriever - INFO - ContextRetriever initialized (vector search: False)
+2025-07-16 12:31:43,752 - models.hybrid_sql_generator - INFO - Google Gemini model initialized
+2025-07-16 12:31:43,752 - models.hybrid_sql_generator - WARNING - OpenAI API key not found
+2025-07-16 12:31:43,758 - httpx - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-16 12:31:43,759 - models.hybrid_sql_generator - INFO - Ollama connection verified
+2025-07-16 12:31:43,759 - core.query_processor - INFO - Step 1: Classifying query type...
+2025-07-16 12:31:43,759 - utils.query_classifier - INFO - Classifying query: Who are the top prescribers of Ozempic in California?
+2025-07-16 12:31:43,759 - core.query_processor - INFO - Step 2: Extracting entities...
+2025-07-16 12:31:43,759 - utils.entity_mapper - INFO - 🔍 Extracting entities from query: Who are the top prescribers of Ozempic in California?
+2025-07-16 12:31:43,760 - utils.entity_mapper - INFO - ✅ Found drugs: Ozempic
+2025-07-16 12:31:43,760 - utils.entity_mapper - INFO - ✅ Found states: California, CA
+2025-07-16 12:31:43,760 - utils.entity_mapper - INFO - ✅ Found cities: Who are the top prescribers of Ozempic in
+2025-07-16 12:31:43,760 - utils.entity_mapper - INFO - ✅ Found providers: prescriber
+2025-07-16 12:31:43,761 - utils.entity_mapper - INFO - ✅ Entity extraction completed. Found 4 entity types
+2025-07-16 12:31:43,761 - core.query_processor - INFO - Step 3: Generating HyDE examples...
+2025-07-16 12:31:43,761 - core.hyde_generator - INFO - Generating HyDE examples for query type: Prescription Analysis
+2025-07-16 12:33:04,458 - core.hyde_generator - INFO - Generated 3 valid HyDE examples
+2025-07-16 12:33:04,460 - core.query_processor - INFO - Step 4: Retrieving context...
+2025-07-16 12:33:04,460 - core.context_retriever - INFO - Retrieving context for query
+2025-07-16 12:33:04,460 - core.context_retriever - ERROR - Error retrieving context: 'tuple' object has no attribute 'items'
+2025-07-16 12:33:04,460 - core.query_processor - INFO - Step 5: Generating SQL...
+2025-07-16 12:33:04,461 - models.hybrid_sql_generator - INFO - Generating SQL with gemini model
+2025-07-16 12:33:06,748 - models.hybrid_sql_generator - INFO - SQL generated successfully via gemini_generated
+2025-07-16 12:33:06,749 - core.query_processor - INFO - Calculating tiered confidence score...
+2025-07-16 12:33:06,752 - core.query_processor - ERROR - Error processing query: invalid syntax (confidence_calculator.py, line 1)
+2025-07-16 12:33:06,753 - __main__ - INFO - Query processed: Who are the top prescribers of Ozempic in California?
+2025-07-16 12:33:06,753 - __main__ - INFO - Confidence: 0.0%
+2025-07-16 14:53:35,606 - httpx - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-16 14:53:35,634 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 14:53:45,966 - httpx - INFO - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_23bcc062a21b4f5c86f607134136a013 "HTTP/1.1 404 Not Found"
+2025-07-16 14:53:46,273 - httpx - INFO - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-16 15:02:06,489 - httpx - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-16 15:02:06,524 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 15:02:14,396 - httpx - INFO - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_97e7441e63cb4b648bc0707af17439f9 "HTTP/1.1 404 Not Found"
+2025-07-16 15:02:14,646 - httpx - INFO - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-16 15:02:25,133 - core.query_processor - INFO - 🔍 Starting complete query processing: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-16 15:02:25,134 - core.query_processor - INFO - 📋 Step 1: Classifying query and extracting entities
+2025-07-16 15:02:25,135 - utils.query_classifier - INFO - Classifying query: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-16 15:02:25,135 - utils.entity_mapper - INFO - 🔍 Extracting entities from query: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-16 15:02:25,136 - utils.entity_mapper - INFO - ✅ Found states: Texas, TX
+2025-07-16 15:02:25,136 - utils.entity_mapper - INFO - ✅ Found procedures: laparoscopic
+2025-07-16 15:02:25,137 - utils.entity_mapper - INFO - ✅ Entity extraction completed. Found 2 entity types
+2025-07-16 15:02:25,137 - core.query_processor - INFO - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-16 15:02:25,137 - core.hyde_generator - INFO - 🔄 Generating HyDE SQL examples...
+2025-07-16 15:03:44,336 - core.hyde_generator - INFO - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-16 15:03:44,338 - core.query_processor - INFO - 🔍 Step 3: Retrieving context
+2025-07-16 15:03:45,551 - core.context_retriever - INFO - ✅ Retrieved 5 context documents
+2025-07-16 15:03:45,551 - core.query_processor - INFO - 🤖 Step 4: Generating SQL
+2025-07-16 15:03:45,552 - models.hybrid_sql_generator - INFO - 🔍 Processing: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-16 15:03:45,552 - models.hybrid_sql_generator - INFO - 🔍 Processing query: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-16 15:03:45,552 - models.hybrid_sql_generator - INFO - 🤖 Generating SQL with Gemini (Intent: facility_focus, Complexity: 2)
+2025-07-16 15:03:47,128 - models.hybrid_sql_generator - INFO - ✅ Gemini SQL generation successful
+2025-07-16 15:03:47,129 - models.hybrid_sql_generator - INFO - 🤖 Gemini generation successful! (1.577s, confidence: 0.91)
+2025-07-16 15:03:47,129 - core.query_processor - INFO - ✅ Step 5: Validating SQL
+2025-07-16 15:03:47,130 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-16 15:03:47,241 - utils.sql_validator - INFO - 🔍 Testing SQL: SELECT prov.facility_name, COUNT(*) AS procedure_count FROM as_providers_referrals_v2 AS r JOIN as_providers_v1 AS prov ON r.primary_type_1_npi = prov...
+2025-07-16 15:03:47,252 - utils.sql_validator - WARNING - ❌ Attempt 1 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 60
+ Code: 60. DB::Exception: Unknown table expression identifier 'as_providers_referrals_v2' in scope SELECT prov.facility_name, COUNT(*) AS procedure_count FROM as_providers_referrals_v2 AS r INNER JOIN as_providers_v1 AS prov ON r.primary_type_1_npi = prov.type_1_npi WHERE (r.procedure_code_description ILIKE '%laparoscopic%') AND (prov.provider_state = 'TX') AND (prov.facility_type ILIKE '%Ambulatory Surgical Center%') GROUP BY prov.facility_name ORDER BY procedure_count DESC LIMIT 10. (UNKNOWN_TABLE) (version 25.6.3.116 (official build))
+
+2025-07-16 15:03:47,253 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 2: localhost:8123
+2025-07-16 15:03:47,257 - utils.sql_validator - WARNING - ❌ Attempt 2 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 15:03:47,258 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 3: localhost:8123
+2025-07-16 15:03:47,259 - utils.sql_validator - WARNING - ❌ Attempt 3 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 15:03:47,260 - utils.sql_validator - WARNING - ⚠️ ClickHouse unavailable, using syntax-only validation
+2025-07-16 15:03:47,260 - core.query_processor - INFO - 📊 Step 6: Evaluating SQL quality
+2025-07-16 15:03:47,265 - utils.sql_evaluator - INFO - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 4, 'overall_quality': 'fair'}
+2025-07-16 15:03:47,265 - core.query_processor - INFO - 📊 Step 7: Calculating confidence score
+2025-07-16 15:03:47,265 - core.query_processor - INFO - ✅ Query processing completed in 82.13s with confidence 95.0%
+2025-07-16 15:03:47,266 - root - INFO - Query result logged: confidence=0.95
+2025-07-16 17:04:26,315 - httpx - INFO - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-16 17:04:26,366 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-16 17:04:36,475 - httpx - INFO - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_1a02e79563e3453f9ba17b2f80c866eb "HTTP/1.1 404 Not Found"
+2025-07-16 17:04:36,777 - httpx - INFO - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-16 17:04:42,249 - core.query_processor - INFO - 🔍 Starting complete query processing: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:04:42,250 - core.query_processor - INFO - 📋 Step 1: Classifying query and extracting entities
+2025-07-16 17:04:42,251 - utils.query_classifier - INFO - Classifying query: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:04:42,251 - utils.entity_mapper - INFO - 🔍 Extracting entities from query: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:04:42,251 - utils.entity_mapper - INFO - ✅ Found cities: Which pharmaceutical companies
+2025-07-16 17:04:42,252 - utils.entity_mapper - INFO - ✅ Found years: 2023
+2025-07-16 17:04:42,252 - utils.entity_mapper - INFO - ✅ Found companies: Which, companies paid the most to doctors in
+2025-07-16 17:04:42,252 - utils.entity_mapper - INFO - ✅ Found providers: doctor
+2025-07-16 17:04:42,252 - utils.entity_mapper - INFO - ✅ Found payments: paid
+2025-07-16 17:04:42,252 - utils.entity_mapper - INFO - ✅ Entity extraction completed. Found 5 entity types
+2025-07-16 17:04:42,252 - core.query_processor - INFO - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-16 17:04:42,253 - core.hyde_generator - INFO - 🔄 Generating HyDE SQL examples...
+2025-07-16 17:04:46,519 - core.hyde_generator - INFO - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-16 17:04:46,519 - core.query_processor - INFO - 🔍 Step 3: Retrieving context
+2025-07-16 17:04:47,979 - core.context_retriever - INFO - ✅ Retrieved 5 context documents
+2025-07-16 17:04:47,980 - core.query_processor - INFO - 🤖 Step 4: Generating SQL
+2025-07-16 17:04:47,980 - models.hybrid_sql_generator - INFO - 🔍 Processing: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:04:47,980 - models.hybrid_sql_generator - INFO - 🔍 Processing query: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:04:47,981 - models.hybrid_sql_generator - INFO - 🤖 Generating SQL with Gemini (Intent: top_ranking, Complexity: 2)
+2025-07-16 17:04:49,491 - models.hybrid_sql_generator - INFO - ✅ Gemini SQL generation successful
+2025-07-16 17:04:49,492 - models.hybrid_sql_generator - INFO - 🤖 Gemini generation successful! (1.512s, confidence: 0.94)
+2025-07-16 17:04:49,492 - core.query_processor - INFO - ✅ Step 5: Validating SQL
+2025-07-16 17:04:49,493 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-16 17:04:49,580 - utils.sql_validator - INFO - 🔍 Testing SQL: SELECT pay.life_science_firm_name, SUM(pay.amount) AS total_payments FROM as_lsf_v1 AS pay WHERE EXTRACT(YEAR FROM pay.payment_publication_date) = 202...
+2025-07-16 17:04:49,590 - utils.sql_validator - WARNING - ❌ Attempt 1 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 60
+ Code: 60. DB::Exception: Unknown table expression identifier 'as_lsf_v1' in scope SELECT pay.life_science_firm_name, SUM(pay.amount) AS total_payments FROM as_lsf_v1 AS pay WHERE toYear(pay.payment_publication_date) = 2023 GROUP BY pay.life_science_firm_name ORDER BY total_payments DESC LIMIT 10. (UNKNOWN_TABLE) (version 25.6.3.116 (official build))
+
+2025-07-16 17:04:49,591 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 2: localhost:8123
+2025-07-16 17:04:49,593 - utils.sql_validator - WARNING - ❌ Attempt 2 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:04:49,594 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 3: localhost:8123
+2025-07-16 17:04:49,595 - utils.sql_validator - WARNING - ❌ Attempt 3 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:04:49,596 - utils.sql_validator - WARNING - ⚠️ ClickHouse unavailable, using syntax-only validation
+2025-07-16 17:04:49,596 - core.query_processor - INFO - 📊 Step 6: Evaluating SQL quality
+2025-07-16 17:04:49,601 - utils.sql_evaluator - INFO - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 4, 'overall_quality': 'fair'}
+2025-07-16 17:04:49,601 - core.query_processor - INFO - 📊 Step 7: Calculating confidence score
+2025-07-16 17:04:49,602 - core.query_processor - INFO - ✅ Query processing completed in 7.35s with confidence 52.5%
+2025-07-16 17:04:49,603 - root - INFO - Query result logged: confidence=0.52
+2025-07-16 17:05:18,828 - core.query_processor - INFO - 🔍 Starting complete query processing: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:05:18,828 - core.query_processor - INFO - 📋 Step 1: Classifying query and extracting entities
+2025-07-16 17:05:18,829 - utils.query_classifier - INFO - Classifying query: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:05:18,829 - utils.entity_mapper - INFO - 🔍 Extracting entities from query: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:05:18,830 - utils.entity_mapper - INFO - ✅ Found cities: Which pharmaceutical companies
+2025-07-16 17:05:18,831 - utils.entity_mapper - INFO - ✅ Found years: 2023
+2025-07-16 17:05:18,832 - utils.entity_mapper - INFO - ✅ Found companies: Which, companies paid the most to doctors in
+2025-07-16 17:05:18,832 - utils.entity_mapper - INFO - ✅ Found providers: doctor
+2025-07-16 17:05:18,833 - utils.entity_mapper - INFO - ✅ Found payments: paid
+2025-07-16 17:05:18,833 - utils.entity_mapper - INFO - ✅ Entity extraction completed. Found 5 entity types
+2025-07-16 17:05:18,833 - core.query_processor - INFO - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-16 17:05:18,834 - core.hyde_generator - INFO - 🔄 Generating HyDE SQL examples...
+2025-07-16 17:05:24,491 - core.hyde_generator - INFO - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-16 17:05:24,492 - core.query_processor - INFO - 🔍 Step 3: Retrieving context
+2025-07-16 17:05:25,169 - core.context_retriever - INFO - ✅ Retrieved 5 context documents
+2025-07-16 17:05:25,170 - core.query_processor - INFO - 🤖 Step 4: Generating SQL
+2025-07-16 17:05:25,170 - models.hybrid_sql_generator - INFO - 🔍 Processing: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:05:25,170 - models.hybrid_sql_generator - INFO - 🔍 Processing query: Which pharmaceutical companies paid the most to doctors in 2023?
+2025-07-16 17:05:25,170 - models.hybrid_sql_generator - INFO - 🤖 Generating SQL with Gemini (Intent: top_ranking, Complexity: 2)
+2025-07-16 17:05:26,525 - models.hybrid_sql_generator - INFO - ✅ Gemini SQL generation successful
+2025-07-16 17:05:26,526 - models.hybrid_sql_generator - INFO - 🤖 Gemini generation successful! (1.356s, confidence: 0.94)
+2025-07-16 17:05:26,526 - core.query_processor - INFO - ✅ Step 5: Validating SQL
+2025-07-16 17:05:26,526 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-16 17:05:26,564 - utils.sql_validator - INFO - 🔍 Testing SQL: SELECT pay.life_science_firm_name, SUM(pay.amount) AS total_payments FROM as_lsf_v1 AS pay WHERE EXTRACT(YEAR FROM pay.payment_publication_date) = 202...
+2025-07-16 17:05:26,569 - utils.sql_validator - WARNING - ❌ Attempt 1 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 60
+ Code: 60. DB::Exception: Unknown table expression identifier 'as_lsf_v1' in scope SELECT pay.life_science_firm_name, SUM(pay.amount) AS total_payments FROM as_lsf_v1 AS pay WHERE toYear(pay.payment_publication_date) = 2023 GROUP BY pay.life_science_firm_name ORDER BY total_payments DESC LIMIT 10. (UNKNOWN_TABLE) (version 25.6.3.116 (official build))
+
+2025-07-16 17:05:26,570 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 2: localhost:8123
+2025-07-16 17:05:26,572 - utils.sql_validator - WARNING - ❌ Attempt 2 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:05:26,572 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 3: localhost:8123
+2025-07-16 17:05:26,574 - utils.sql_validator - WARNING - ❌ Attempt 3 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:05:26,575 - utils.sql_validator - WARNING - ⚠️ ClickHouse unavailable, using syntax-only validation
+2025-07-16 17:05:26,575 - core.query_processor - INFO - 📊 Step 6: Evaluating SQL quality
+2025-07-16 17:05:26,578 - utils.sql_evaluator - INFO - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 4, 'overall_quality': 'fair'}
+2025-07-16 17:05:26,578 - core.query_processor - INFO - 📊 Step 7: Calculating confidence score
+2025-07-16 17:05:26,578 - core.query_processor - INFO - ✅ Query processing completed in 7.75s with confidence 52.5%
+2025-07-16 17:05:26,579 - root - INFO - Query result logged: confidence=0.52
+2025-07-16 17:05:31,747 - core.query_processor - INFO - 🔍 Starting complete query processing: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-16 17:05:31,748 - core.query_processor - INFO - 📋 Step 1: Classifying query and extracting entities
+2025-07-16 17:05:31,748 - utils.query_classifier - INFO - Classifying query: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-16 17:05:31,749 - utils.entity_mapper - INFO - 🔍 Extracting entities from query: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-16 17:05:31,749 - utils.entity_mapper - INFO - ✅ Found drugs: Lipitor, Metformin
+2025-07-16 17:05:31,749 - utils.entity_mapper - INFO - ✅ Found states: Texas, TX
+2025-07-16 17:05:31,749 - utils.entity_mapper - INFO - ✅ Found providers: provider
+2025-07-16 17:05:31,749 - utils.entity_mapper - INFO - ✅ Entity extraction completed. Found 3 entity types
+2025-07-16 17:05:31,749 - core.query_processor - INFO - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-16 17:05:31,750 - core.hyde_generator - INFO - 🔄 Generating HyDE SQL examples...
+2025-07-16 17:05:42,293 - core.hyde_generator - INFO - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-16 17:05:42,296 - core.query_processor - INFO - 🔍 Step 3: Retrieving context
+2025-07-16 17:05:42,933 - core.context_retriever - INFO - ✅ Retrieved 5 context documents
+2025-07-16 17:05:42,933 - core.query_processor - INFO - 🤖 Step 4: Generating SQL
+2025-07-16 17:05:42,934 - models.hybrid_sql_generator - INFO - 🔍 Processing: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-16 17:05:42,934 - models.hybrid_sql_generator - INFO - 🔍 Processing query: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-16 17:05:42,934 - models.hybrid_sql_generator - INFO - 🤖 Generating SQL with Gemini (Intent: prescription_focus, Complexity: 0)
+2025-07-16 17:05:45,477 - models.hybrid_sql_generator - INFO - ✅ Gemini SQL generation successful
+2025-07-16 17:05:45,477 - models.hybrid_sql_generator - INFO - 🤖 Gemini generation successful! (2.544s, confidence: 0.88)
+2025-07-16 17:05:45,478 - core.query_processor - INFO - ✅ Step 5: Validating SQL
+2025-07-16 17:05:45,478 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-16 17:05:45,513 - utils.sql_validator - INFO - 🔍 Testing SQL: SELECT prov.first_name, prov.last_name FROM as_providers_v1 prov INNER JOIN fct_pharmacy_clear_claim_allstatus_cluster_brand p ON toString(prov.type_1...
+2025-07-16 17:05:45,518 - utils.sql_validator - WARNING - ❌ Attempt 1 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 60
+ Code: 60. DB::Exception: Unknown table expression identifier 'as_providers_v1' in scope SELECT prov.first_name, prov.last_name FROM as_providers_v1 AS prov INNER JOIN fct_pharmacy_clear_claim_allstatus_cluster_brand AS p ON toString(prov.type_1_npi) = p.PRESCRIBER_NPI_NBR WHERE (p.NDC_PREFERRED_BRAND_NM ILIKE '%Metformin%') AND ((prov.states[1]) ILIKE '%TX%') AND (prov.type_1_npi IN (SELECT prov2.type_1_npi FROM as_providers_v1 AS prov2 INNER JOIN fct_pharmacy_clear_claim_allstatus_cluster_brand AS p2 ON toString(prov2.type_1_npi) = p2.PRESCRIBER_NPI_NBR WHERE (p2.NDC_PREFERRED_BRAND_NM ILIKE '%Lipitor%') AND ((prov2.states[1]) ILIKE '%TX%'))) GROUP BY prov.first_name, prov.last_name LIMIT 1. (UNKNOWN_TABLE) (version 25.6.3.116 (official build))
+
+2025-07-16 17:05:45,519 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 2: localhost:8123
+2025-07-16 17:05:45,520 - utils.sql_validator - WARNING - ❌ Attempt 2 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:05:45,521 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 3: localhost:8123
+2025-07-16 17:05:45,522 - utils.sql_validator - WARNING - ❌ Attempt 3 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:05:45,522 - utils.sql_validator - WARNING - ⚠️ ClickHouse unavailable, using syntax-only validation
+2025-07-16 17:05:45,523 - core.query_processor - INFO - 📊 Step 6: Evaluating SQL quality
+2025-07-16 17:05:45,528 - utils.sql_evaluator - INFO - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 5, 'overall_quality': 'good'}
+2025-07-16 17:05:45,529 - core.query_processor - INFO - 📊 Step 7: Calculating confidence score
+2025-07-16 17:05:45,529 - core.query_processor - INFO - ✅ Query processing completed in 13.78s with confidence 73.9%
+2025-07-16 17:05:45,529 - root - INFO - Query result logged: confidence=0.74
+2025-07-16 17:06:54,709 - core.query_processor - INFO - 🔍 Starting complete query processing: Most prescribed diabetes medications by endocrinologists in California
+2025-07-16 17:06:54,710 - core.query_processor - INFO - 📋 Step 1: Classifying query and extracting entities
+2025-07-16 17:06:54,711 - utils.query_classifier - INFO - Classifying query: Most prescribed diabetes medications by endocrinologists in California
+2025-07-16 17:06:54,711 - utils.entity_mapper - INFO - 🔍 Extracting entities from query: Most prescribed diabetes medications by endocrinologists in California
+2025-07-16 17:06:54,711 - utils.entity_mapper - INFO - ✅ Found states: California, CA
+2025-07-16 17:06:54,711 - utils.entity_mapper - INFO - ✅ Found cities: Most prescribed diabetes medications by endocrinologists in
+2025-07-16 17:06:54,711 - utils.entity_mapper - INFO - ✅ Found specialties: endocrinology
+2025-07-16 17:06:54,712 - utils.entity_mapper - INFO - ✅ Found conditions: diabetes
+2025-07-16 17:06:54,712 - utils.entity_mapper - INFO - ✅ Entity extraction completed. Found 4 entity types
+2025-07-16 17:06:54,712 - core.query_processor - INFO - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-16 17:06:54,712 - core.hyde_generator - INFO - 🔄 Generating HyDE SQL examples...
+2025-07-16 17:07:02,659 - core.hyde_generator - INFO - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-16 17:07:02,661 - core.query_processor - INFO - 🔍 Step 3: Retrieving context
+2025-07-16 17:07:03,300 - core.context_retriever - INFO - ✅ Retrieved 5 context documents
+2025-07-16 17:07:03,300 - core.query_processor - INFO - 🤖 Step 4: Generating SQL
+2025-07-16 17:07:03,301 - models.hybrid_sql_generator - INFO - 🔍 Processing: Most prescribed diabetes medications by endocrinologists in California
+2025-07-16 17:07:03,301 - models.hybrid_sql_generator - INFO - 🔍 Processing query: Most prescribed diabetes medications by endocrinologists in California
+2025-07-16 17:07:03,301 - models.hybrid_sql_generator - INFO - 🤖 Generating SQL with Gemini (Intent: prescription_focus, Complexity: 2)
+2025-07-16 17:07:05,024 - models.hybrid_sql_generator - INFO - ✅ Gemini SQL generation successful
+2025-07-16 17:07:05,025 - models.hybrid_sql_generator - INFO - 🤖 Gemini generation successful! (1.724s, confidence: 0.93)
+2025-07-16 17:07:05,025 - core.query_processor - INFO - ✅ Step 5: Validating SQL
+2025-07-16 17:07:05,026 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-16 17:07:05,086 - utils.sql_validator - INFO - 🔍 Testing SQL: SELECT p.NDC_PREFERRED_BRAND_NM, COUNT(*) AS prescription_count FROM fct_pharmacy_clear_claim_allstatus_cluster_brand AS p INNER JOIN as_providers_v1 ...
+2025-07-16 17:07:05,091 - utils.sql_validator - WARNING - ❌ Attempt 1 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 60
+ Code: 60. DB::Exception: Unknown table expression identifier 'fct_pharmacy_clear_claim_allstatus_cluster_brand' in scope SELECT p.NDC_PREFERRED_BRAND_NM, COUNT(*) AS prescription_count FROM fct_pharmacy_clear_claim_allstatus_cluster_brand AS p INNER JOIN as_providers_v1 AS prov ON toString(prov.type_1_npi) = p.PRESCRIBER_NPI_NBR WHERE ((prov.specialties[1]) ILIKE '%endocrinology%') AND ((prov.states[1]) = 'CA') AND (p.DISEASE_NAME ILIKE '%diabetes%') GROUP BY p.NDC_PREFERRED_BRAND_NM ORDER BY prescription_count DESC LIMIT 20. (UNKNOWN_TABLE) (version 25.6.3.116 (official build))
+
+2025-07-16 17:07:05,093 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 2: localhost:8123
+2025-07-16 17:07:05,095 - utils.sql_validator - WARNING - ❌ Attempt 2 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:07:05,096 - utils.sql_validator - INFO - 🔍 ClickHouse attempt 3: localhost:8123
+2025-07-16 17:07:05,097 - utils.sql_validator - WARNING - ❌ Attempt 3 failed: HTTPDriver for http://localhost:8123 received ClickHouse error code 194
+ Code: 194. DB::Exception: default: Authentication failed: password is incorrect, or there is no user with such name.
+
+If you use ClickHouse Cloud, the password can be reset at https://clickhouse.cloud/
+on the settings page for the corresponding service.
+
+If you have installed ClickHouse and forgot password you can reset it in the configuration file.
+The password for default user is typically located at /etc/clickhouse-server/users.d/default-password.xml
+and deleting this file will reset the password.
+See also /etc/clickhouse-server/users.xml on the server where ClickHouse is installed.
+
+. (REQUIRED_PASSWORD) (version 25.6.3.116 (official build))
+
+2025-07-16 17:07:05,097 - utils.sql_validator - WARNING - ⚠️ ClickHouse unavailable, using syntax-only validation
+2025-07-16 17:07:05,098 - core.query_processor - INFO - 📊 Step 6: Evaluating SQL quality
+2025-07-16 17:07:05,102 - utils.sql_evaluator - INFO - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 5, 'overall_quality': 'fair'}
+2025-07-16 17:07:05,102 - core.query_processor - INFO - 📊 Step 7: Calculating confidence score
+2025-07-16 17:07:05,102 - core.query_processor - INFO - ✅ Query processing completed in 10.39s with confidence 88.8%
+2025-07-16 17:07:05,103 - root - INFO - Query result logged: confidence=0.89
