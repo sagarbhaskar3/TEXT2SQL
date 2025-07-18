@@ -993,3 +993,287 @@ See also /etc/clickhouse-server/users.xml on the server where ClickHouse is inst
 2025-07-16 10:03:25,899 - 📊 Step 7: Calculating confidence score
 2025-07-16 10:03:25,899 - ✅ Query processing completed in 12.21s with confidence 91.5%
 2025-07-16 10:03:25,906 - Query result logged: confidence=0.92
+AIzaSyBVX7k2CKg8GanH0qSnM_2ESMsiS-8guR42025-07-17 11:25:40,301 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 11:25:40,491 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 11:25:44,934 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_6c1ba365aefa47c0aa5b99dd79c4f148 "HTTP/1.1 404 Not Found"
+2025-07-17 11:25:45,281 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 11:25:45,743 - 🤖 Initializing hybrid SQL generator...
+2025-07-17 11:27:02,754 - ✅ Google Gemini 2.5 client initialized successfully
+2025-07-17 11:27:02,823 - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-17 11:27:02,825 - ✅ Ollama fallback ready: llama3:latest
+2025-07-17 11:27:02,826 - ✅ Hybrid SQL generator initialized successfully
+2025-07-17 11:27:02,826 - 💾 Initializing data systems...
+2025-07-17 11:27:02,826 - 📊 Setting up ClickHouse tables...
+2025-07-17 11:27:02,922 - Created table as_lsf_v1
+2025-07-17 11:27:02,928 - Created table as_providers_v1
+2025-07-17 11:27:02,933 - Created table as_providers_referrals_v2
+2025-07-17 11:27:02,933 - ❌ Data system initialization failed: 'Decimal(38, 9)'
+2025-07-17 11:28:18,444 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 11:28:18,479 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 11:28:22,413 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_ddd853aedb8f42db9aab42b6d621ebbc "HTTP/1.1 404 Not Found"
+2025-07-17 11:28:22,695 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 11:28:22,985 - 🤖 Initializing hybrid SQL generator...
+2025-07-17 11:29:38,705 - ❌ Gemini initialization failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 21
+}
+]
+2025-07-17 11:29:38,761 - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-17 11:29:38,763 - ✅ Ollama fallback ready: llama3:latest
+2025-07-17 11:29:38,763 - ✅ Hybrid SQL generator initialized successfully
+2025-07-17 11:29:38,763 - 💾 Initializing data systems...
+2025-07-17 11:29:38,764 - 📊 Setting up ClickHouse tables...
+2025-07-17 11:29:38,803 - Created table as_lsf_v1
+2025-07-17 11:29:38,805 - Created table as_providers_v1
+2025-07-17 11:29:38,807 - Created table as_providers_referrals_v2
+2025-07-17 11:29:38,807 - ❌ Data system initialization failed: 'Decimal(38, 9)'
+2025-07-17 11:37:12,162 - 🤖 Initializing hybrid SQL generator...
+2025-07-17 11:38:29,187 - ✅ Google Gemini 2.5 client initialized successfully
+2025-07-17 11:38:29,279 - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-17 11:38:29,282 - ✅ Ollama fallback ready: llama3:latest
+2025-07-17 11:38:29,282 - ✅ Hybrid SQL generator initialized successfully
+2025-07-17 11:38:29,282 - 💾 Initializing data systems...
+2025-07-17 11:38:29,282 - 📊 Setting up ClickHouse tables...
+2025-07-17 11:38:29,319 - Dropped table fct_pharmacy_clear_claim_allstatus_cluster_brand
+2025-07-17 11:38:29,323 - Dropped table as_lsf_v1
+2025-07-17 11:38:29,324 - Dropped table as_providers_referrals_v2
+2025-07-17 11:38:29,364 - Created table as_lsf_v1
+2025-07-17 11:38:29,367 - Created table as_providers_v1
+2025-07-17 11:38:29,373 - Created table as_providers_referrals_v2
+2025-07-17 11:38:29,373 - ❌ ClickHouse table creation failed: 'Decimal(38, 9)'
+2025-07-17 11:38:29,373 - ⚠️ ClickHouse initialization failed: 'Decimal(38, 9)'
+2025-07-17 11:38:29,373 - Continuing without ClickHouse
+2025-07-17 11:38:29,373 - 🔍 Setting up Weaviate vector store...
+2025-07-17 11:38:29,411 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 11:38:29,415 - HTTP Request: GET http://localhost:8080/v1/.well-known/ready "HTTP/1.1 200 OK"
+2025-07-17 11:38:29,418 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 11:38:34,114 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_4bd880f6b87347caab8a2860856938d4 "HTTP/1.1 404 Not Found"
+2025-07-17 11:38:34,993 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 11:38:34,997 - ✅ Weaviate client initialized successfully
+2025-07-17 11:38:35,000 - HTTP Request: GET http://localhost:8080/v1/schema/SchemaAndExamples "HTTP/1.1 404 Not Found"
+2025-07-17 11:38:35,000 - ✅ Weaviate schema setup complete
+2025-07-17 11:38:45,275 - ✅ Weaviate data loaded successfully
+2025-07-17 11:38:45,276 - ✅ Weaviate initialized with full data
+2025-07-17 11:38:45,276 - ✅ Data systems initialized (with graceful fallbacks)
+2025-07-17 11:38:45,276 - 🤖 Generator validation: Gemini=True, Ollama=True
+2025-07-17 11:38:45,276 - 💾 Data systems validation: ✅
+2025-07-17 11:38:45,277 - 🎉 All systems initialized and validated successfully
+2025-07-17 11:39:01,818 - Query processing failed: No module named 'utils.demo_cache'
+2025-07-17 12:02:17,087 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 12:02:17,107 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 12:02:22,195 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_c058ba8b369a4d98a56af2efd20188a5 "HTTP/1.1 404 Not Found"
+2025-07-17 12:02:22,766 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 12:03:19,858 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 12:03:19,912 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 12:03:23,909 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_a0e89e7245bc45c185dc13807ed5498c "HTTP/1.1 404 Not Found"
+2025-07-17 12:03:24,159 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 12:03:24,388 - 🤖 Initializing hybrid SQL generator...
+2025-07-17 12:04:41,895 - ✅ Google Gemini 2.5 client initialized successfully
+2025-07-17 12:04:41,949 - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-17 12:04:41,951 - ✅ Ollama fallback ready: llama3:latest
+2025-07-17 12:04:41,951 - ✅ Hybrid SQL generator initialized successfully
+2025-07-17 12:04:41,951 - 💾 Initializing data systems...
+2025-07-17 12:04:41,952 - 📊 Setting up ClickHouse tables...
+2025-07-17 12:04:42,051 - Created table as_lsf_v1
+2025-07-17 12:04:42,054 - Created table as_providers_v1
+2025-07-17 12:04:42,055 - Created table as_providers_referrals_v2
+2025-07-17 12:04:42,055 - ❌ Data system initialization failed: 'Decimal(38, 9)'
+2025-07-17 13:04:26,557 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 13:04:26,574 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:04:31,830 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_8cbe8b08c28a4b68877c94c2f34c2de4 "HTTP/1.1 404 Not Found"
+2025-07-17 13:04:32,353 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 13:05:12,667 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 13:05:12,683 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:05:16,860 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_4c7fa3da021b4c17a3e1f2dce8a8a9d9 "HTTP/1.1 404 Not Found"
+2025-07-17 13:05:17,133 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 13:07:09,399 - HTTP Request: GET http://localhost:8080/v1/meta "HTTP/1.1 200 OK"
+2025-07-17 13:07:09,440 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-07-17 13:07:13,925 - HTTP Request: GET http://localhost:8080/v1/schema/LlamaIndex_a40a828026c84e88beca812d90f6764f "HTTP/1.1 404 Not Found"
+2025-07-17 13:07:14,210 - HTTP Request: POST http://localhost:8080/v1/schema "HTTP/1.1 200 OK"
+2025-07-17 13:07:14,700 - 🤖 Initializing hybrid SQL generator...
+2025-07-17 13:08:32,115 - ✅ Google Gemini 2.5 client initialized successfully
+2025-07-17 13:08:32,203 - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2025-07-17 13:08:32,208 - ✅ Ollama fallback ready: llama3:latest
+2025-07-17 13:08:32,208 - ✅ Hybrid SQL generator initialized successfully
+2025-07-17 13:08:32,208 - 💾 Initializing data systems...
+2025-07-17 13:08:32,208 - 📊 Setting up ClickHouse tables...
+2025-07-17 13:08:32,348 - Created table as_lsf_v1
+2025-07-17 13:08:32,351 - Created table as_providers_v1
+2025-07-17 13:08:32,354 - Created table as_providers_referrals_v2
+2025-07-17 13:08:32,381 - Created table fct_pharmacy_clear_claim_allstatus_cluster_brand
+2025-07-17 13:08:32,389 - Created table mf_conditions
+2025-07-17 13:08:32,395 - Created table mf_providers
+2025-07-17 13:08:32,400 - Created table mf_scores
+2025-07-17 13:08:32,498 - Error loading data/csv_files/Payments_to_HCPs.csv into ClickHouse: object of type 'float' has no len()
+2025-07-17 13:08:32,720 - Error loading data/csv_files/Provider_details_file.csv into ClickHouse: object of type 'float' has no len()
+2025-07-17 13:08:32,792 - Error loading data/csv_files/Referral_Patterns_file.csv into ClickHouse: object of type 'float' has no len()
+2025-07-17 13:08:32,933 - Error loading data/csv_files/Diagnosis_Procedures_file.csv into ClickHouse: Unrecognized column 'CLAIM_NBR' in table Diagnosis_Procedures_file
+2025-07-17 13:08:33,073 - Error loading data/csv_files/Pharmacy_Claims_file.csv into ClickHouse: object of type 'float' has no len()
+2025-07-17 13:08:33,154 - Loaded 3508 rows into Condition_Directory_file
+2025-07-17 13:08:33,292 - Error loading data/csv_files/KOL_Providers.csv into ClickHouse: object of type 'numpy.int64' has no len()
+2025-07-17 13:08:33,333 - Loaded 10000 rows into KOL_Scores
+2025-07-17 13:08:33,333 - ✅ ClickHouse initialized
+2025-07-17 13:08:33,333 - 🔍 Setting up Weaviate vector store...
+2025-07-17 13:08:33,354 - HTTP Request: GET http://localhost:8080/v1/schema/SchemaAndExamples "HTTP/1.1 404 Not Found"
+2025-07-17 13:08:42,538 - Weaviate data loaded
+2025-07-17 13:08:42,540 - ✅ Weaviate initialized
+2025-07-17 13:08:42,540 - ✅ All data systems initialized successfully
+2025-07-17 13:08:42,540 - 🤖 Generator validation: Gemini=True, Ollama=True
+2025-07-17 13:08:42,540 - 💾 Data systems validation: ✅
+2025-07-17 13:08:42,540 - 🎉 All systems initialized and validated successfully
+2025-07-17 13:09:57,431 - 🔍 Starting complete query processing: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-17 13:09:57,432 - 📋 Step 1: Classifying query and extracting entities
+2025-07-17 13:09:57,432 - Classifying query: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-17 13:09:57,434 - 🔍 Extracting entities from query: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-17 13:09:57,452 - ✅ Found states: Texas, TX
+2025-07-17 13:09:57,453 - ✅ Found procedures: laparoscopic
+2025-07-17 13:09:57,453 - ✅ Entity extraction completed. Found 2 entity types
+2025-07-17 13:09:57,453 - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-17 13:09:57,453 - 🔄 Generating HyDE SQL examples...
+2025-07-17 13:10:01,112 - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-17 13:10:01,113 - 🔍 Step 3: Retrieving context
+2025-07-17 13:10:01,602 - Index retrieval failed: 
+******
+Could not load OpenAI model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+To disable the LLM entirely, set llm=None.
+******
+2025-07-17 13:10:01,602 - ✅ Retrieved 0 context documents
+2025-07-17 13:10:01,602 - 🤖 Step 4: Generating SQL
+2025-07-17 13:10:01,602 - 🔍 Processing: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-17 13:10:01,602 - 🔍 Processing query: Find the top Ambulatory Surgical Centers for laparoscopic procedures in Texas
+2025-07-17 13:10:01,602 - 🤖 Generating SQL with Gemini (Intent: facility_focus, Complexity: 2)
+2025-07-17 13:10:03,163 - ✅ Gemini SQL generation successful
+2025-07-17 13:10:03,164 - 🤖 Gemini generation successful! (1.562s, confidence: 0.91)
+2025-07-17 13:10:03,165 - ✅ Step 5: Validating SQL
+2025-07-17 13:10:03,166 - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-17 13:10:03,242 - 🔍 Testing SQL: SELECT r.primary_hospital_name AS ASCName, count(*) AS ProcedureCount FROM as_providers_referrals_v2 AS r INNER JOIN as_providers_v1 AS p ON toString(...
+2025-07-17 13:10:03,299 - ✅ ClickHouse validation successful
+2025-07-17 13:10:03,299 - 📊 Step 6: Evaluating SQL quality
+2025-07-17 13:10:03,329 - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 5, 'overall_quality': 'good'}
+2025-07-17 13:10:03,329 - 📊 Step 7: Calculating confidence score
+2025-07-17 13:10:03,329 - ✅ Query processing completed in 5.90s with confidence 95.2%
+2025-07-17 13:10:03,330 - Query result logged: confidence=0.95
+2025-07-17 13:10:11,814 - 🔍 Starting complete query processing: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-17 13:10:11,814 - 📋 Step 1: Classifying query and extracting entities
+2025-07-17 13:10:11,814 - Classifying query: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-17 13:10:11,814 - 🔍 Extracting entities from query: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-17 13:10:11,815 - ✅ Found drugs: Metformin, Lipitor
+2025-07-17 13:10:11,815 - ✅ Found states: Texas, TX
+2025-07-17 13:10:11,815 - ✅ Found providers: provider
+2025-07-17 13:10:11,815 - ✅ Entity extraction completed. Found 3 entity types
+2025-07-17 13:10:11,815 - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-17 13:10:11,815 - 🔄 Generating HyDE SQL examples...
+2025-07-17 13:10:20,470 - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-17 13:10:20,471 - 🔍 Step 3: Retrieving context
+2025-07-17 13:10:20,475 - Index retrieval failed: 
+******
+Could not load OpenAI model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+To disable the LLM entirely, set llm=None.
+******
+2025-07-17 13:10:20,475 - ✅ Retrieved 0 context documents
+2025-07-17 13:10:20,475 - 🤖 Step 4: Generating SQL
+2025-07-17 13:10:20,476 - 🔍 Processing: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-17 13:10:20,476 - 🔍 Processing query: Show me providers who prescribed both Metformin and Lipitor in Texas
+2025-07-17 13:10:20,476 - 🤖 Generating SQL with Gemini (Intent: prescription_focus, Complexity: 0)
+2025-07-17 13:10:22,117 - ✅ Gemini SQL generation successful
+2025-07-17 13:10:22,117 - 🤖 Gemini generation successful! (1.641s, confidence: 0.88)
+2025-07-17 13:10:22,117 - ✅ Step 5: Validating SQL
+2025-07-17 13:10:22,117 - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-17 13:10:22,154 - 🔍 Testing SQL: SELECT prov.first_name, prov.last_name, prov.type_1_npi FROM fct_pharmacy_clear_claim_allstatus_cluster_brand AS p JOIN as_providers_v1 AS prov ON toS...
+2025-07-17 13:10:22,175 - ✅ ClickHouse validation successful
+2025-07-17 13:10:22,175 - 📊 Step 6: Evaluating SQL quality
+2025-07-17 13:10:22,183 - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 5, 'overall_quality': 'good'}
+2025-07-17 13:10:22,183 - 📊 Step 7: Calculating confidence score
+2025-07-17 13:10:22,183 - ✅ Query processing completed in 10.37s with confidence 80.6%
+2025-07-17 13:10:22,184 - Query result logged: confidence=0.81
+2025-07-17 13:29:59,593 - 🔍 Starting complete query processing: Top facilities for cardiac procedures with provider expertise analysis
+2025-07-17 13:29:59,595 - 📋 Step 1: Classifying query and extracting entities
+2025-07-17 13:29:59,595 - Classifying query: Top facilities for cardiac procedures with provider expertise analysis
+2025-07-17 13:29:59,595 - 🔍 Extracting entities from query: Top facilities for cardiac procedures with provider expertise analysis
+2025-07-17 13:29:59,596 - ✅ Found cities: Top facilities for
+2025-07-17 13:29:59,596 - ✅ Found providers: provider
+2025-07-17 13:29:59,596 - ✅ Entity extraction completed. Found 2 entity types
+2025-07-17 13:29:59,596 - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-17 13:29:59,596 - 🔄 Generating HyDE SQL examples...
+2025-07-17 13:30:09,348 - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-17 13:30:09,350 - 🔍 Step 3: Retrieving context
+2025-07-17 13:30:09,357 - Index retrieval failed: 
+******
+Could not load OpenAI model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+To disable the LLM entirely, set llm=None.
+******
+2025-07-17 13:30:09,358 - ✅ Retrieved 0 context documents
+2025-07-17 13:30:09,358 - 🤖 Step 4: Generating SQL
+2025-07-17 13:30:09,358 - 🔍 Processing: Top facilities for cardiac procedures with provider expertise analysis
+2025-07-17 13:30:09,358 - 🔍 Processing query: Top facilities for cardiac procedures with provider expertise analysis
+2025-07-17 13:30:09,359 - 🤖 Generating SQL with Gemini (Intent: top_ranking, Complexity: 2)
+2025-07-17 13:30:10,881 - ✅ Gemini SQL generation successful
+2025-07-17 13:30:10,882 - 🤖 Gemini generation successful! (1.523s, confidence: 0.91)
+2025-07-17 13:30:10,883 - ✅ Step 5: Validating SQL
+2025-07-17 13:30:10,883 - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-17 13:30:10,947 - 🔍 Testing SQL: SELECT r.primary_hospital_name AS facility_name, COUNT(*) AS procedure_count, COUNT(DISTINCT r.primary_type_1_npi) AS provider_count, groupArray(DISTI...
+2025-07-17 13:30:11,007 - ✅ ClickHouse validation successful
+2025-07-17 13:30:11,007 - 📊 Step 6: Evaluating SQL quality
+2025-07-17 13:30:11,013 - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 4, 'overall_quality': 'good'}
+2025-07-17 13:30:11,013 - 📊 Step 7: Calculating confidence score
+2025-07-17 13:30:11,014 - ✅ Query processing completed in 11.42s with confidence 82.7%
+2025-07-17 13:30:11,015 - Query result logged: confidence=0.83
+2025-07-17 13:33:54,014 - 🔍 Starting complete query processing: Show the top 10 providers who referred the most patients and the total number of prescriptions those referred patients received.
+2025-07-17 13:33:54,016 - 📋 Step 1: Classifying query and extracting entities
+2025-07-17 13:33:54,016 - Classifying query: Show the top 10 providers who referred the most patients and the total number of prescriptions those referred patients received.
+2025-07-17 13:33:54,017 - 🔍 Extracting entities from query: Show the top 10 providers who referred the most patients and the total number of prescriptions those referred patients received.
+2025-07-17 13:33:54,018 - ✅ Found cities: providers who referred the most patients and the total number of prescriptions those referred
+2025-07-17 13:33:54,019 - ✅ Found numbers: 10
+2025-07-17 13:33:54,019 - ✅ Found providers: provider
+2025-07-17 13:33:54,019 - ✅ Found patients: patient, patients
+2025-07-17 13:33:54,019 - ✅ Entity extraction completed. Found 4 entity types
+2025-07-17 13:33:54,019 - 🔄 Step 2: Generating HyDE SQL examples
+2025-07-17 13:33:54,019 - 🔄 Generating HyDE SQL examples...
+2025-07-17 13:34:04,971 - ✅ Generated 3 HyDE SQL examples via Gemini
+2025-07-17 13:34:04,971 - 🔍 Step 3: Retrieving context
+2025-07-17 13:34:04,976 - Index retrieval failed: 
+******
+Could not load OpenAI model. If you intended to use OpenAI, please check your OPENAI_API_KEY.
+Original error:
+No API key found for OpenAI.
+Please set either the OPENAI_API_KEY environment variable or openai.api_key prior to initialization.
+API keys can be found or created at https://platform.openai.com/account/api-keys
+
+To disable the LLM entirely, set llm=None.
+******
+2025-07-17 13:34:04,976 - ✅ Retrieved 0 context documents
+2025-07-17 13:34:04,977 - 🤖 Step 4: Generating SQL
+2025-07-17 13:34:04,977 - 🔍 Processing: Show the top 10 providers who referred the most patients and the total number of prescriptions those referred patients received.
+2025-07-17 13:34:04,977 - 🔍 Processing query: Show the top 10 providers who referred the most patients and the total number of prescriptions those referred patients received.
+2025-07-17 13:34:04,977 - 🤖 Generating SQL with Gemini (Intent: top_ranking, Complexity: 3)
+2025-07-17 13:34:06,537 - ✅ Gemini SQL generation successful
+2025-07-17 13:34:06,538 - 🤖 Gemini generation successful! (1.561s, confidence: 0.95)
+2025-07-17 13:34:06,538 - ✅ Step 5: Validating SQL
+2025-07-17 13:34:06,539 - 🔍 ClickHouse attempt 1: localhost:8123
+2025-07-17 13:34:06,607 - 🔍 Testing SQL: SELECT prov.first_name, prov.last_name, COUNT(DISTINCT p.PATIENT_ID) AS referral_count, COUNT(p.NDC_PREFERRED_BRAND_NM) AS prescription_count FROM as_...
+2025-07-17 13:34:06,647 - ✅ ClickHouse validation successful
+2025-07-17 13:34:06,647 - 📊 Step 6: Evaluating SQL quality
+2025-07-17 13:34:06,654 - SQL evaluation completed: {'total_checks': 9, 'passed_checks': 5, 'overall_quality': 'good'}
+2025-07-17 13:34:06,654 - 📊 Step 7: Calculating confidence score
+2025-07-17 13:34:06,654 - ✅ Query processing completed in 12.64s with confidence 79.9%
+2025-07-17 13:34:06,656 - Query result logged: confidence=0.80
